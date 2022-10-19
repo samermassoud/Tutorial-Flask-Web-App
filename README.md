@@ -9,6 +9,12 @@ git clone <repo-url>
 ```
 
 ```bash
+virtualenv -p /usr/local/bin/python3 venv
+echo "source venv/bin/activate" >> activate.sh
+
+chmod +x activate.sh
+source activate.sh 
+
 pip install -r requirements.txt
 ```
 
